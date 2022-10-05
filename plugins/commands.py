@@ -11,10 +11,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('𝗞𝗠𝗧𝗭 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/kmtz_channel_v3'),
+        InlineKeyboardButton('🔞𝗔𝗗𝗠𝗜𝗡🔞', url='https://t.me/KL_2335')
     ],[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Jijinr/Frwdit')
+        InlineKeyboardButton('𝗞𝗠𝗧𝗭 𝗚𝗥𝗢𝗨𝗣 ☠️', url='https://t.me/kmtz_v4')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -39,7 +39,7 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 SouceCode', url='https://github.com/Jijinr/Frwdit'),
+        InlineKeyboardButton('𝗞𝗠𝗧𝗭 𝗚𝗥𝗢𝗨𝗣 ☠️', url='https://t.me/kmtz_v4'),
         InlineKeyboardButton('close 🔐', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
