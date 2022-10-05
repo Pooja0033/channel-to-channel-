@@ -63,7 +63,7 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk')
+        InlineKeyboardButton('𝗞𝗠𝗧𝗭 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/kmtz_channel_v3')
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
