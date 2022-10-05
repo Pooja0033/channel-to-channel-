@@ -21,8 +21,8 @@ More details /help</i>"""
 * /about - <b>About Me</b>"""
   ABOUT_TXT = """<b><u>My Info</b></u>
 
-<b>Name :</b> <code>Auto Forward Bot</code>
-<b>Credit :</b> <code>Dark Angel</code>
+<b>Name :</b> <code>𝗞𝗠𝗧𝗭 Auto Forward Bot</code>
+<b>Credit :</b> <code>Dark 𝗞𝗠𝗧𝗭 𝗚𝗥𝗢𝗨𝗣 ☠️</code>
 <b>Language :</b> <code>Python3</code>
 <b>Lybrary :</b> <code>Pyrogram v1.2.9</code>
 <b>Server :</b> <code>Heroku</code>
